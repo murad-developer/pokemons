@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Pokemons</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="container text-center mt-4">
+		<div class="pokemons__wrapper">
+			<h1 class="pokemons__title">How many pokemon do you want to see ?</h1>
+			<input class="pokemons-count-input" type="number" placeholder="Number of pokemons">
+			<button class="pokemons-show-button btn-warning" type="button">Load Pokemons</button>
+		</div>
+		<ul class="pokemons__list"></ul>
+	</div>
+
+	<template id="pokemon-template">
+		<li class="pokemon">
+			<img class="pokemon-img -img">
+			<div class="small-box"> 
+				<h3 class="pokemon__title">nomi</h3>
+				<p class="pokemon__id ">id</p>
+				<p class="pokemon__num -">raqami</p>
+				<p class="pokemon__type">turi</p>
+				<p class="pokemon__height">buyi</p>
+				<p class="pokemon__weight">ogirligi</p>
+				<p class="pokemon__candy">shirinlik</p>
+				<p class="pokemon__candy-count">shirinlik miqdori</p>
+				<p class="pokemon__egg">tuxum</p>
+				<p class="pokemon__spawn-chance">avlod</p>
+				<p class="pokemon__avg-spawns">birnima</p>
+				<p class="pokemon__spawn-time">birnima</p>
+				<p class="pokemon__multipliers">birnima</p>
+				<p class="pokemon__weaknesses">birnima</p>
+				<p class="pokemon__next-evolution">birnima</p>
+			</div>
+		</li>
+	</template>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/pokemons.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
